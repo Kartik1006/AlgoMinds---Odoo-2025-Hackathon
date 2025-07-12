@@ -1,1 +1,0 @@
-# AlgoMinds---Odoo-2025-Hackathon
