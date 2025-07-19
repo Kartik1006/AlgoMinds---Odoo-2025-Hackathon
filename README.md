@@ -50,22 +50,65 @@ StackIt is a minimal, user-friendly question-and-answer platform designed for co
 ### Database
    **[MongoDB Atlas](https://www.mongodb.com/cloud/atlas)**: A fully-managed cloud database service.
 
-  **Set up Environment Variables**:
-    
+  ## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You need to have the following software installed on your machine:
+*   [Node.js](https://nodejs.org/) (which includes npm)
+*   [Git](https://git-scm.com/)
+*   A free [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) account.
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git "https://github.com/Kartik1006/AlgoMinds---Odoo-2025-Hackathon.git"
+    cd stackit-backend
+    ```
+
+2.  **Install NPM packages:**
+    ```bash
+    npm install
+    ```
+
+3.  **Set up Environment Variables:**
+    Create a `.env` file in the root of the project and add the following configuration. Replace the placeholder values with your actual credentials.
+
+    ```env
+    # Server Configuration
     PORT=5000
     NODE_ENV=development
-   
-    
+
+    # MongoDB Atlas Connection String
+    # Get this from your Atlas Cluster -> Connect -> Connect your application
     MONGO_URI="mongodb+srv://kartik:algominds@cluster0.pboy12h.mongodb.net/"
     JWT_SECRET="y+Z7y1y0MYRtEVvH1VkBcVz06xKJ6vQElz9DLTruf3U"
 
-    ARCJET_KEY = "ajkey_01jzwxe1r3fn2stge3mc92zm90"
-    ARCJET_ENV = "development"
     CLOUDINARY_CLOUD_NAME="dvpsgwyw"
     CLOUDINARY_API_KEY="526956314234836"
     CLOUDINARY_API_SECRET="iQG5Uhjo-IyvhkjWOwLyCXYJueo"
-**URL 🔗 [https://github.com/Kartik1006/AlgoMinds---Odoo-2025-Hackathon.git](https://github.com/Kartik1006/AlgoMinds---Odoo-2025-Hackathon.git)**
+    ```
 
+4.  **Run the server:**
+    To start the server in development mode, run:
+    ```bash
+    npm run dev
+    ```
+    Or for production:
+    ```bash
+    npm start
+    ```
+    The server will be running on `http://localhost:5000`.
+
+### Recommended `package.json` scripts:
+```json
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+}
 
 
 
