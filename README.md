@@ -64,6 +64,8 @@ StackIt is a minimal, user-friendly question-and-answer platform designed for co
     CLOUDINARY_CLOUD_NAME="dvpsgwyw"
     CLOUDINARY_API_KEY="526956314234836"
     CLOUDINARY_API_SECRET="iQG5Uhjo-IyvhkjWOwLyCXYJueo"
+**URL 🔗 [https://github.com/Kartik1006/AlgoMinds---Odoo-2025-Hackathon.git](https://github.com/Kartik1006/AlgoMinds---Odoo-2025-Hackathon.git)**
+
 
 
 
